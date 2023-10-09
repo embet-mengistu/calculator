@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.Main {
+  /* width: 500px; */
+  background-color: black;
+  max-width: 400px;
+  height: 535px;
+  margin: 0 auto;
+  margin-top: 90px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.answerDiv {
+  background-color: black;
+  padding: 30px 0px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+.rows button {
+  width: 90px;
+  border-radius: 60px;
+  border: 2px black;
+  height: 80px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.firstRow {
+  margin-top: 5px;
+}
+.zeroBotton {
+  width: 190px !important;
+}
+.orangeButton {
+  background-color: orange;
+}
+.lightgrayButtons {
+  background-color: rgb(196, 194, 194);
+}
+button:not(.orangeButton):not(.lightgrayButtons) {
+  background-color: gray;
+}
